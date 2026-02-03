@@ -85,7 +85,7 @@ This will:
 ### Start the Application
 
 ```bash
-python main.py
+ uvicorn main:app --reload
 ```
 
 The application will start at: `http://localhost:8000`
